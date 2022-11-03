@@ -1,0 +1,40 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(233, 144, 159, 0.719);
+    margin: 10px;
+    padding: 20px;
+}
+
+h1{
+    color:rgb(112, 7, 112);
+    font-size:  3em;
+
+}
+
+p{
+    font-size:2em;
+    color:blueviolet
+}
+
+.imagem {
+    width: 500px;
+    height: 300px;
+}
+
+.animationfadeIn {
+    animation:heart 2s linear infinite;
+}
+
+@keyframes heart {
+  0% {
+    opacity:1;
+  }
+  50% {
+    opacity:0.3;
+  }
+  100% {
+    opacity:1;
+  }
+}
